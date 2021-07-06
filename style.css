@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;  
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;  
+}
+h3{
+    font-size: 25px;
+}
+
+.orange-color{
+    color:orange;
+}
+.flexible-container{
+    display:flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left:3%;
+}
+.half-width img {
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    color:white;
+    font-weight: 700;
+    border-radius: 30px;
+} 
+
+
+.about-section
+{
+    background-image: url('images/7.png');
+}
+
+
+.middel-aeria{
+    text-align: center;
+}
+.middel-aeria p{
+    max-width:60%;
+    margin: 0 auto;
+}
+
+
+.my-recipies{
+    margin: 0 auto;
+    align-items: center;
+    align-self: center;
+    max-width: 90%;
+    display: grid;
+
+}
+.my-recipies .card{
+    display: inline;
+    grid-row: 1/3;
+    margin: 18px;
+    background: #fff;
+    box-shadow: 5px 10px 5px 8px gray;
+    border-radius: 20px;
+}
+.card img{
+    padding: 20px;
+    height: 100%;
+    width: 90%;
+}
+.card p{
+    padding-bottom: 35px;
+    margin-top: -15px;
+}
+.card h4{
+    margin-top: -15px;
+    font-size: 25px;
+}
+.bottom-section{
+    padding: 50px;
+    text-align: center;
+}
+.bottom-section .card{
+    background: #fff;
+    border-radius: 10px;
+    display: grid;
+    box-shadow: 8px 10px 6px 10px rgb(129, 126, 126);
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-section .card .follow{
+    display: inline;
+    grid-row: 1/3;
+}
+.full-recipies{
+    text-align: center;
+    }
+.footer-section{
+    text-align: center;
+    background-color:#141414;
+    margin-left:5px;
+}
+.footer-section .text{
+    padding: 40px;
+    text-align: center;  
+}
+.text{
+    color:white
+}
+
+
